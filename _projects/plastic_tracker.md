@@ -3,7 +3,7 @@ layout: page
 title: The Plastic Tracker
 description: An interactive map to see where plastic ends in the ocean.
 img: assets/img/Plastic-tracker_Malaysia.png.webp
-importance: 1
+importance: 2
 category: work
 ---
 

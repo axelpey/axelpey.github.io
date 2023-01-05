@@ -19,9 +19,9 @@ Hi!
 
 I'm an MS student at Stanford University's [Institute for Computational and Mathematical Engineering](https://icme.stanford.edu/), graduating in Spring '23 with a focus on Computational Social Sciences. My personal goal is to have the best impact possible on this world, by being a good teammate, leader, scientist and person.
 
-I previously worked in ocean plastic pollution cleaning at **[The Ocean Cleanup](https://theoceancleanup.com/)**, as a Computational Modeler. Throughout my 1.5 years there, I was modeling where plastic goes in the ocean, improving numerical methods, and developing new applications based on them, some used by _more than 200k users_. So far, The Ocean Cleanup has cleaned more than **200 tonnes of plastic** from the pacific ocean so far.
+I was previously modeling the state of ocean plastic pollution at **[The Ocean Cleanup](https://theoceancleanup.com/)**, improving numerical methods and developing new applications based on them, some used by _more than 200k users_. So far, The Ocean Cleanup has cleaned more than **200 tonnes of plastic** from the pacific ocean so far.
 
-I'm also a former BAMer (aka a mobile developer at [BAM.tech](https://www.bam.tech/)), and a graduate from [CentraleSupélec](https://www.centralesupelec.fr/)
+I'm also a former BAMer (aka a mobile developer at [BAM.tech](https://www.bam.tech/)), and a graduate from [CentraleSupélec](https://www.centralesupelec.fr/).
 
 #### **Research interests**
 
@@ -32,7 +32,7 @@ Large-scale collaboration of human beings is critical to solve the global-scale 
 - How can we fight them in a practical way ?
 - How can we incite online users to look for quality information without staying in their filter bubble ?
 
-I am also interested in the impact of social media on society's ability to fight climate change and other major issues. Can they be leveraged to increase awareness of these issues? Are its effects more negative or positive on the perception of climate-related issues? What is the impact of climate activism in its different forms on the perception of the issue on line?
+I am also interested in the impact of social media on society's ability to fight climate change and other major issues. Can they be leveraged to increase awareness of these issues? Are its effects more negative or positive on the perception of climate-related issues? What is the impact of climate activism in its different forms on the perception of the issue online?
 
 #### **Practically fighting polarization and misinformation online**
 
