@@ -11,7 +11,7 @@ category: work
 - Paper: [Download]({% link assets/pdf/CS_224C_Final_Paper.pdf %})
 - Poster: [Download]({% link assets/pdf/poster-xpo-cs224c-project.pdf %})
 
-Understanding the impact of climate change activism on how people conceive the issue is a crucial issue to make sure we correctly fight climate change.
+Understanding the impact of climate change activism on how people conceive the issue is a crucial issue to make sure we correctly fight climate change. In fact, it's such a pressing issue that [a peer-reviewed paper](https://doi.org/10.1002/wcc.683) ranting about the lack of work done on it was published in 2021.
 
 I used AI to study how climate change denialism evolves on Twitter during major activism events.
 
