@@ -1,20 +1,31 @@
 papers:
+  - title: "Building & Analyzing the World's Largest Beach Cleanup Database"
+    authors: "<b>Axel Peytavin</b>"
+    venue: "Everyday AI San Francisco. 2023."
+    video: "https://videos.dataiku.com/watch/qTiEXtaLtHdxHVTHT5s9ZX?"
+    selected: y
+
   - title: "Industrialised fishing nations largely contribute to floating plastic pollution in the North Pacific subtropical gyre"
     authors: "Laurent Lebreton, Sarah-Jeanne Royer, <b>Axel Peytavin</b>, Wouter Jan Strietman, Ingeborg Smeding-Zuurendonk, Matthias Egger"
     venue: "Scientific Reports, 12(1), 1-11. 2022."
-    paper_pdf: "/assets/publications/2022_industrialised_fishing_nations/paper.pdf" # PDF link not provided
+    paper_pdf: "/assets/publications/2022_industrialised_fishing_nations/paper.pdf"
     selected: y
 
   - title: "Size Dependent Transport of Floating Plastics Modeled in the Global Ocean. Front"
     authors: "D Klink, <b>A Peytavin</b>, L Lebreton"
     venue: "Frontiers in Marine Science, 9. 2022."
-    paper_pdf: "/assets/publications/2022_size_dependent_transport/paper.pdf" # PDF link not provided
+    paper_pdf: "/assets/publications/2022_size_dependent_transport/paper.pdf"
     selected: y # 'y' if it should be selected, 'n' otherwise
 
   - title: "Ocean Plastic Assimilator v0. 2: assimilation of plastic concentration data into Lagrangian dispersion models"
     authors: "<b>Axel Peytavin</b>, Bruno Sainte-Rose, Gael Forget, Jean-Michel Campin"
     venue: "Geoscientific Model Development, 14(7), 4769-4780. 2021."
-    paper_pdf: "/assets/publications/2021_ocean_plastic_assimilator/paper.pdf" # PDF link not provided
+    paper_pdf: "/assets/publications/2021_ocean_plastic_assimilator/paper.pdf"
+    selected: y
+  
+  - title: "Why we can’t fact-check people"
+    authors: "<b>Axel Peytavin</b>"
+    venue: "TEDxCentraleSupelec. 2023."
+    video: "https://www.youtube.com/watch?v=oF7mB9w9DNM"
     selected: y
 
-# Your existing papers here
