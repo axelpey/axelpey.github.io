@@ -21,7 +21,7 @@ export default function Home() {
       <main className="max-w-xl w-full space-y-6">
         <div className="text-center">
           <Image
-            src="/placeholder.svg?height=150&width=150"
+            src="/axel-picture.jpeg"
             alt="Axel Peytavin"
             width={150}
             height={150}
