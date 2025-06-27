@@ -104,7 +104,7 @@ function SocialLinks() {
         <span className="sr-only">GitHub</span>
       </a>
       <a
-        href="https://linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/axel-peytavin/"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-600 hover:text-gray-800"
@@ -113,7 +113,7 @@ function SocialLinks() {
         <span className="sr-only">LinkedIn</span>
       </a>
       <a
-        href="https://twitter.com/yourhandle"
+        href="https://x.com/ax_pey"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-600 hover:text-gray-800"
