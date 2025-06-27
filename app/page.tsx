@@ -21,7 +21,7 @@ export default function Home() {
       <main className="max-w-xl w-full space-y-6">
         <div className="text-center">
           <Image
-            src="/axel-picture.jpeg"
+            src="/pp_yc.png"
             alt="Axel Peytavin"
             width={150}
             height={150}
@@ -45,26 +45,31 @@ export default function Home() {
             >
               Innate
             </a>
-            , a Bay Area startup working to bring physical life to AI in
-            innately intelligent general-purpose robots running on multimodal
-            models. We currently make the easiest mobile robots to teach for
-            hobbyists.
+            , a Bay Area startup working on making the first personal AI robots.
+          </p>
+          <p>
+            The AI era of computing is allowing robots to be programmed with
+            language, vision and movement. These modalities are much more
+            adapted to machines evolving in the real world than code, and will
+            very quickly lead to everyone wanting to be a roboticist. Innate is
+            providing the best platforms for this market in that they are made
+            simple yet extremely powerful.
           </p>
 
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            Previously, I was an Applied Maths grad at Stanford and researched
-            using AI to understand humans on social media and counter
-            misinformation. I also worked at The Ocean Cleanup on modeling ocean
-            plastic pollution, and I founded GetAlong, a project aimed at
-            fostering more constructive conversations on news platforms.
+            Previously, I was an Applied Maths grad at Stanford and researcher
+            in the HCI group, studying how AI can be used to understand humans
+            on social media and counter misinformation. I also worked at The
+            Ocean Cleanup on modeling ocean plastic pollution, and I founded
+            GetAlong, a project aimed at fostering more constructive
+            conversations on news platforms.
           </p>
 
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            I am an avid fan of sci-fi, particularly Isaac Asimov's literature,
-            in particular the concept of Psychohistory and his anticipation of
-            positronic robots. I also love sharing wine and talking about
-            society, playing the guitar over the ocean, and filming with my
-            drone.
+            I am a big fan of sci-fi, particularly Isaac Asimov, because of his
+            concept of Psychohistory and his anticipation of positronic robots.
+            I also love sharing wine and talking about society, playing the
+            guitar over the ocean, and filming with my drone.
           </p>
 
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
