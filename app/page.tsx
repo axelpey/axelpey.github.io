@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ProjectList from "./components/ProjectList";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Twitter, BookOpen } from "lucide-react";
 
 const projects = [
   { name: "Innate: AI Robots everyone can teach", url: "https://innate.bot" },
@@ -30,64 +30,29 @@ export default function Home() {
           <h1 className="text-3xl font-semibold text-gray-900 mb-2">
             Axel Peytavin
           </h1>
-          <h2 className="text-xl text-gray-600 mb-4">
-            Co-Founder & CEO, Innate
-          </h2>
+          <h2 className="text-xl text-gray-600 mb-4">CEO, Innate</h2>
         </div>
 
         <div className="space-y-4">
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            I am the co-founder of{" "}
-            <a
-              href="https://innate.bot"
-              target="_blank"
-              className="text-blue-500"
-            >
-              Innate
-            </a>
-            , a Bay Area startup working on making the first personal AI robots.
-          </p>
-          <p>
-            The AI era of computing is allowing robots to be programmed with
-            language, vision and movement. These modalities are much more
-            adapted to machines evolving in the real world than code, and will
-            very quickly lead to everyone wanting to be a roboticist. Innate is
-            providing the best platforms for this market in that they are made
-            simple yet extremely powerful.
+            Every 20 years, a new technology emerges that changes the world. In
+            the 2020s, we are lucky to have two: AI, and soon robots.
           </p>
 
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            Previously, I was an Applied Maths grad at Stanford and researcher
-            in the HCI group, studying how AI can be used to understand humans
-            on social media and counter misinformation. I also worked at The
-            Ocean Cleanup on modeling ocean plastic pollution, and I founded
-            GetAlong, a project aimed at fostering more constructive
-            conversations on news platforms.
+            The second one will be bigger and will change the world in ways we
+            can’t even imagine. In order for it to develop fast and to benefit
+            everyone, it needs to be made so intuitive that everyone can become
+            a roboticist.
           </p>
 
           <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            I am a big fan of sci-fi, particularly Isaac Asimov, because of his
-            concept of Psychohistory and his anticipation of positronic robots.
-            I also love sharing wine and talking about society, playing the
-            guitar over the ocean, and filming with my drone.
+            This is the mission of Innate. We build a new kind of robotics
+            platform, not only fit for deeply technical builders, but also
+            newcomers. A robot for the rest of us.
           </p>
 
-          <p className="text-gray-700 leading-relaxed text-justify max-w-prose mx-auto">
-            If you're interested in bringing real life to robots before 2026,
-            you can reach me at{" "}
-            <a href="mailto:axel@innate.bot" className="text-blue-500">
-              axel@innate.bot
-            </a>
-            . I also enjoy just meeting interesting people, so hit me up if you
-            want to chat.
-          </p>
-        </div>
-
-        <div>
-          <h2 className="text-xl font-semibold text-gray-900 mb-3">
-            Some cool things I've done
-          </h2>
-          <ProjectList projects={projects} />
+          <p>If you're interested in learning more, please reach out.</p>
         </div>
 
         <SocialLinks />
@@ -125,6 +90,10 @@ function SocialLinks() {
       >
         <Twitter className="w-6 h-6" />
         <span className="sr-only">Twitter</span>
+      </a>
+      <a href="/blog" className="text-gray-600 hover:text-gray-800">
+        <BookOpen className="w-6 h-6" />
+        <span className="sr-only">Blog</span>
       </a>
     </div>
   );
