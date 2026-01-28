@@ -9,10 +9,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Axel Peytavin - HCI, Generative Agents & Robotics",
-  description:
-    "Personal landing page of Axel Peytavin, a founder and researcher in Human-Computer Interaction, Generative Agents, and Robotics.",
-  generator: "v0.dev",
+  title: "Axel Peytavin",
+  description: "I like robots, hci, and generative agents.",
 };
 
 export default function RootLayout({
