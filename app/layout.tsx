@@ -10,7 +10,10 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Axel Peytavin",
-  description: "I like robots, hci, and generative agents.",
+  description: "Bringing agentic robots to everyone",
+  icons: {
+    icon: "/pp_yc.png",
+  },
 };
 
 export default function RootLayout({
@@ -24,5 +27,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-import "./globals.css";
