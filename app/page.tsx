@@ -21,11 +21,11 @@ export default function Home() {
       <main className="max-w-xl w-full space-y-6">
         <div className="text-center">
           <Image
-            src="/pp_yc.png"
+            src="/marin-mar-26.png"
             alt="Axel Peytavin"
             width={150}
             height={150}
-            className="rounded-full mx-auto mb-4"
+            className="w-[150px] h-[150px] rounded-full object-cover object-center mx-auto mb-4"
           />
           <h1 className="text-3xl font-semibold text-gray-900 mb-2">
             Axel Peytavin
