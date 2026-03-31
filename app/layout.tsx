@@ -12,7 +12,7 @@ export const metadata = {
   title: "Axel Peytavin",
   description: "Bringing agentic robots to everyone",
   icons: {
-    icon: "/pp_yc.png",
+    icon: "/marin-mar-26.png",
   },
 };
 
