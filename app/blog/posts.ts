@@ -82,7 +82,7 @@ The same startups all the time, the same pitches with just slight variations. Th
 
 An investor friend of mine told me recently that Tier 1 VCs see everything SO much that they have a bias for things that feel different because they’re just bored. Well I’m not surprised, it’s literally frying my brain.
 
-Not that I don’t understand why people do this, I do. Society converges towards some kind of blurb-style that everyone sort of understands and as long as you haven’t found yours, it’s probably better than nothing. But still, I am begging everyone to please be original and not use Claude or GPT for writing. Please, I’m going to lose my mind otherwise.`,
+Not that I don’t understand why people do this, I do. Society converges towards some kind of blurb-style that everyone sort of understands and as long as you haven't found your style, maybe generic is better than nothing. But still, I am begging everyone to please be original and not use Claude or GPT for writing. Please, I’m going to lose my mind otherwise.`,
   },
   {
     slug: "most-statements-are-obvious",
