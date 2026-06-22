@@ -1,11 +1,74 @@
+export interface BlogImage {
+  src: string;
+  alt: string;
+  width?: number;
+  height?: number;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
   date: string;
-  content: string; // Markdown or HTML content
+  excerpt?: string;
+  // Shown above the post title and used for social previews by default.
+  headerImage?: BlogImage;
+  // Optional Open Graph/Twitter override when the visible header should differ.
+  socialImage?: BlogImage;
+  content: string; // Markdown content with optional {{tweet:https://...}} markers
 }
 
 export const posts: BlogPost[] = [
+  {
+    slug: "companies-are-art-projects",
+    title: "Companies are art projects",
+    date: "2026-06-21",
+    excerpt:
+      "The best companies have a soul: they embody a founder's vision in the same way an art project does.",
+    headerImage: {
+      src: "/blog/companies-are-art-projects-header.jpg",
+      alt: "A hand sketching a collage of music, spaceships, architecture, and robotics.",
+      width: 1983,
+      height: 793,
+    },
+    socialImage: {
+      src: "/blog/companies-are-art-projects-social.jpg",
+      alt: "A hand sketching a collage of music, spaceships, architecture, and robotics.",
+      width: 1200,
+      height: 630,
+    },
+    content: `I was triggered recently by reading a quote from Steve Blank about how the best entrepreneurs are artists that want to put in the world a vision of their own.
+
+It surprised me, as I took his famous class at Stanford: the Lean Launchpad. It follows the Lean method he laid out, which Eric Ries crystallized in the famous “The Lean Startup” book. Even before then, this was a book I had encountered in Paris many times; a book that entrepreneurs in France swore by. So why did he say this back in 2011? In the class, there was a clear method to follow; one that made it seem like making a company is mostly a process and that you can just do it by talking to enough people and analyzing everything that comes out of it properly.
+
+I came to realize that there is no real paradox here. In fact, when you took the class, you could see that Steve was maybe the least “follow the book straight to the line” of all the teachers. He understood that a general method needed to be interpreted (and stretched) when the entrepreneur’s intuition pointed at doing something that might look stupid. For all the misunderstandings we seemed to have–Steve did not seem to get our idea of where robotics would go–he was at the same time the most likely to change his mind. Because he knew that you have to be a bit crazy sometimes. And arguably, what we pitched at the end of the class WAS crazy. 6 months later, when we raised our pre-seed, it was still crazy.
+
+Since then I have realized how the best companies are indeed like art projects. They have a soul, they embody something that is not just a “follow the process and get rich”. Some can get pretty big without an apparent soul, but they always have some kind of element of craziness, something different about them. And arguably the most inspiring ones are the ones telling a story. Founders like Elon, David Holz of Midjourney, Dario from Anthropic… they tell you something about the world they see, and they do it in their very own way. It’s very important that they do it in their very own way. 
+
+
+## The medium is the message
+
+As a founder, when going direct with your communication, the medium is the message. Elon has grand speeches or awkward interviews, which are his signature. Dario has his blog posts. David has the videos he made for Midjourney which are his particular style. Roy Lee’s success is probably a consequence of his vitriolic style.
+
+{{tweet:https://x.com/midjourney/status/2067422898407837797}}
+
+These are extremely different from the average communication styles you see in most startups copying what’s trendy today. And you need extreme confidence to act like this, because you’re standing out twice when both the content and the medium are your own vibe.
+
+{{tweet:https://x.com/im_roy_lee/status/2031020809376932049/video/1}}
+
+When I was in undergrad, I used to direct a student organization making videos and shows, that was massively successful. There was something to it that was fun and purposeful, and we appeared as such for the rest of the student body. It attracted people who wanted to film what was going on and, as our mission statement said, “be the memory of the campus”. I found that, in the years since when the organization has worked less, it seemed because they had forgotten about their purpose. But when you have a purpose and you create your own media that expresses it, this is where you hit the jackpot. This is what Jobs expressed by saying the most powerful person is the storyteller.
+
+## Building as a medium
+
+Founders are also artists in that their product seems more of a representation of what they believe than a solution to a problem (while obviously being one). But the act of artistic creation plays a huge role in it. The joy of the founder arises from the process of drawing designs, of imagining something very representative of themselves. Even as it is the result of a team effort, the team follows a kind of artistic calling that leads all of them to be consistent in their work–when it works.
+
+Building, itself, is a medium. It’s been most visible lately when expressed as games which are the most immersive medium possible. Just like you paint a figure, layer notes on a DAW or edit a dolly in Premiere, building a game was, at least for me, a way of expressing myself. And there’s a reason why a lot of founders started this way. Hell the amount of technical founders I know that started with building around Minecraft–the best code blank slate the exists– is staggering. We started as artists, and we see our craft as such. 
+
+I am using these analogies because, for inhabitants of Silicon Valley, building has been akin to coding for the past 20 years, but obviously hardware builders work the same way. If anything, by putting their builds out there in the physical world, it could be seen as a superior type of art, but who the hell am I to make comparisons (well, yeah, a hardware founder).
+
+We are builders, but we are maybe first and foremost artists. I have come to believe that to be good founders we need to cultivate this, and that comes by practice all types of art. From drawing, to music, to video editing, to design and crafting by hand and all sorts of things. And as I end editing this piece, I am sitting on the side of the pool realizing that today I practiced 3 or 4 different types of craft for the company, and I feel completely myself. 
+
+There used to be a time when I thought I would either be an engineer or an artist. It is a beautiful realization to see that today, I can be both.`,
+  },
   {
     slug: "code-nostalgia",
     title: "Code Nostalgia",
